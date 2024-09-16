@@ -5,7 +5,22 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
-a {
+  a {
+    color: white; /* Warna putih untuk semua tautan */
+    text-decoration: none; /* Menghapus garis bawah */
+  }
+
+  a:hover {
+    color: white; /* Tetap putih saat di-hover */
+  }
+
+  a:visited {
+    color: white; /* Tetap putih setelah dikunjungi */
+  }
+
+  a:active {
+    color: white; /* Tetap putih saat diklik */
+  }
   text-decoration: none;
 }
 ul {
